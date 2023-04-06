@@ -18,7 +18,7 @@ export default function Home() {
     <QueryClientProvider client={queryClient}>
     
      <ArticleCollection />
-
+<ReactQueryDevtools/>
  
 </QueryClientProvider>
 
